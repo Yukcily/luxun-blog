@@ -65,7 +65,7 @@ ___
 ### 普通文本
 这是一段普通的文本
 ### 单行文本
-    Hello,大家好，我是果冻虾仁。
+    Hello,大家好
 在一行开头加入1个Tab或者4个空格。
 ### 文本块
 #### 语法1
@@ -78,9 +78,7 @@ ___
 #### 语法2
 使用一对各三个的反引号：
 ```
-欢迎到访
-我是C++码农
-你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
+欢
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
 ### 文字高亮
@@ -139,7 +137,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
 >在文末有code-past的定义：
 ```
-[code-past]:/img/codepast-logo.jpg "公众号：编程往事"
+[code-past]:/img/codepast-logo.jpg "公众号"
 ```
 
 链接
@@ -148,7 +146,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |#|语法|效果|
 |---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
+|1|`[我的博客](http://blog.csdn.net/ "悬停显示")`|[我的博客](http://blog.csdn.net/ "悬停显示")|
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
 
 语法2由两部分组成：
